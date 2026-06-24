@@ -43,7 +43,7 @@ Software Engineer at **[Neocoast](https://www.neocoast.com/)** with **5+ years**
 
 ### 📫 Find me
 
-[Website](https://www.neocoast.com/) · [LinkedIn](https://www.linkedin.com/in/hernandezsanti/) · [Email](mailto:hernandezsantiago25@gmail.com)
+[Website](https://www.neocoast.com/) · [LinkedIn](https://www.linkedin.com/in/santiago-hernandez-gonzalez/) · [Email](mailto:hernandezsantiago25@gmail.com)
 
 ---
 
