@@ -15,7 +15,7 @@
 
 I am an AI Engineer at **[Neocoast](https://www.neocoast.com/)**. My work is to make AI coding agents useful and safe inside real engineering teams: I define how the company builds software with agents, I build the tooling that makes it repeatable, and I help developers, designers, PMs and QA adopt it.
 
-Before this I spent **5+ years** building and scaling production software, mostly backend services, cloud infrastructure and database performance with Java / Spring Boot and AWS. That background is why I care about agents that ship code you can trust, not only demos.
+Before this I spent **5+ years** building and scaling production software. My core is **Node.js and React**: backend services, web apps and cloud infrastructure on AWS. That background is why I care about agents that ship code you can trust, not only demos.
 
 Computer Engineering, **UdelaR** (Uruguay). Based in Montevideo 🇺🇾.
 
@@ -47,14 +47,16 @@ Computer Engineering, **UdelaR** (Uruguay). Based in Montevideo 🇺🇾.
 ### 🧩 Tech
 
 **AI:** `Claude Code` `Claude API` `MCP` `Agent skills` `Hooks & plugins` `Multi-agent workflows`<br>
-**Backend & data:** `Java` `Spring Boot` `Python` `TypeScript` `Node.js` · `MySQL` `PostgreSQL` `Redis`<br>
-**Frontend & mobile:** `Vue` `Nuxt` `React` `React Native` `Swift`<br>
+**Backend & data:** `Node.js` `TypeScript` `Python` `Java` `Spring Boot` · `MySQL` `PostgreSQL` `Redis`<br>
+**Frontend & mobile:** `React` `Next.js` `React Native` `Vue` `Nuxt` `Swift`<br>
 **Cloud & infra:** `AWS` `Docker` `Terraform` `GitHub Actions`
 
 ![Claude](https://img.shields.io/badge/Claude%20Code-D97757?style=flat&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
