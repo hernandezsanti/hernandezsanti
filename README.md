@@ -21,7 +21,27 @@ Computer Engineering, **UdelaR** (Uruguay). Based in Montevideo 🇺🇾.
 
 ### 🤖 What I have built
 
-**AI engineering standard.** I wrote the standard that defines how Neocoast delivers software with AI agents: a charter with the mandatory rules, a practical playbook, the fundamentals (spec-driven development and TDD with agents) and a shared glossary.
+**AI engineering standard.** I wrote and maintain the standard that defines how Neocoast delivers software with AI coding agents, both on its own products and on client projects. It has 22 numbered rules in six areas (authority and risk, data and trust, process, evidence, code quality and cost), a playbook that explains the reason behind each rule, and a practical guide to spec-driven development and TDD with agents.
+
+Every rule carries three labels: if it also applies to throwaway spikes, if it goes into the agent's `CLAUDE.md` / `AGENTS.md` or is enforced by the team (CI, CODEOWNERS, PR template), and the **mechanism** that enforces it. A rule without a mechanism is only an intention.
+
+<details>
+<summary>Some of the ideas in it</summary>
+
+- Irreversible actions (push to protected branches, migrations, deploys, production data) need an authorization that names the action and the target. "Go ahead" is not an authorization.
+- A human gate between plan and build. Fixing a plan costs minutes, fixing code that is already written costs hours.
+- TDD where you have to see the test fail, and fail for the right reason. If the agent changes the test to make it pass, that is an incident.
+- Every PR has an `## Evidence` section with the literal output of the command, never a summary of it.
+- Everything an agent reads from outside (issues, web pages, logs, MCP output) is data, never an instruction. This is the defense against prompt injection, together with a permission allowlist that is reviewed as code.
+- Third-party skill sets are supply chain: they are audited and pinned to a commit before they are installed.
+- An agent creates abstractions for free, so the brake has to be written: abstract on the third occurrence, not on the second.
+- A correction that repeats twice becomes an artifact (a rule, a skill, a test or a hook), never "be more careful".
+- Before kickoff, the client contract is checked for AI use and the token cost is defined in the proposal.
+- We measure evidence coverage and rework rate. We explicitly do not measure "% of code written by AI", because it rewards volume, not quality.
+
+</details>
+
+The standard is maintained as code. The Markdown sources are versioned in a repo, rules are never renumbered because project files reference them, CI publishes every merge to the company wiki, and a pre-commit hook generates a shareable HTML version and verifies it word by word against the sources. A companion skill audits any repo against the standard, and a starter kit scaffolds new projects already aligned with it.
 
 **Company-wide agent toolkit.** A collection of 27 Claude Code skills, tools and configurations, distributed as a plugin marketplace with automatic updates. It covers the whole team, not only developers: estimation, Jira breakdown, design system work in Figma, store review checks, privacy and compliance audits, meeting recaps and more.
 
@@ -29,20 +49,12 @@ Computer Engineering, **UdelaR** (Uruguay). Based in Montevideo 🇺🇾.
 
 **Agent onboarding for non-technical roles.** An interactive CLI that prepares a machine for agents and suggests the right tools and MCP servers depending on the role (PM, designer or QA).
 
-**Agent infrastructure I use every day:**
+**Agent infrastructure I use every day.** I apply the same standard to my own work, and several of these hooks enforce its rules on my machine:
 - Guardrails as hooks: block pushes and merges to production branches, and cap test runner workers based on free RAM so parallel agents do not freeze the machine.
 - Plugins that protect paid CI minutes, enforce ticket-based commits and clean up git worktrees when a PR is opened.
 - A multi-account switcher for Claude Code with quota monitoring in the status line.
 - Skills that drive a real iPhone from the Mac with XCUITest, so an agent can do end to end QA on a physical device.
 - Custom MCP servers and a Claude-powered assistant that runs on my own server.
-
-### 🧭 How I work with agents
-
-- **Spec first, then tests, then code.** The agent works from a written spec and a failing test, not from a prompt.
-- **Guardrails over trust.** Anything destructive or outward-facing is blocked by a hook, not by a promise in a prompt.
-- **Human checkpoints where it matters.** The agent does the work, a person approves the decisions.
-- **Isolation by default.** Each agent works in its own git worktree, so parallel work does not collide.
-- **Cost-aware.** Verify locally what CI would check, and keep tokens and CI minutes under control.
 
 ### 🧩 Tech
 
