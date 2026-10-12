@@ -8,12 +8,12 @@ As a Tech Lead, I work across web, mobile, and AWS, use AI coding agents to deli
 
 Projects change, but the skills I bring to each one travel with me.
 
-- **Responsible AI adoption.** I contributed to a 22-rule organizational standard across six areas. Each rule has a hook, CI check, review, or PR template behind it.
-- **Architecture and migration.** I moved a legacy Spring Boot API gateway to NestJS while preserving its client contract. Customers experienced no downtime.
-- **Product design and validation.** Before building, I explore solution options and their tradeoffs, validate product decisions with the PM, and ask the agent to list its assumptions so I can challenge them before writing code. I write a spec for almost everything.
-- **Quality and evidence.** I believe nothing is ready without evidence, and the agent that wrote the code does not certify it. I use TDD and check edge cases before calling work done.
-- **Estimation and delivery.** I estimate AI-assisted work in parallel waves, with human review points and explicit assumptions when questions remain open.
-- **Technical leadership and hiring.** I use stack-independent interviews to assess reasoning, system design, and the ability to review generated code. I lead engineering and set practices for AI adoption across development, design, product, and QA.
+- **Responsible AI adoption.** I help teams adopt AI responsibly by defining clear practices and making them part of everyday work. I focus on steps people can follow and review.
+- **Architecture and migration.** I design systems that can evolve while preserving the behavior clients rely on. I plan migrations carefully to reduce disruption.
+- **Product design and validation.** I explore solution options and their tradeoffs before building. I clarify assumptions and validate decisions with the people involved.
+- **Quality and evidence.** I use tests and clear evidence to check that work is ready. I review edge cases before calling it done.
+- **Estimation and delivery.** I break work into clear steps, estimate each part, and identify where human review is needed. When questions remain open, I make the assumptions explicit.
+- **Technical leadership and hiring.** I assess how people reason about systems and review generated code. I lead engineering teams and help establish practices for AI adoption across disciplines.
 
 ## Key decisions
 
