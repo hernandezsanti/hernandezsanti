@@ -1,8 +1,8 @@
 # Santiago Hernández
 
-I lead product engineering and build systems for responsible AI adoption.
+I lead products from problem framing and design validation through production.
 
-Tech Lead experienced in production platform architecture across web, mobile, and AWS. I contributed to an organizational standard for working with AI in production software.
+As a Tech Lead, I work across web, mobile, and AWS, use AI coding agents to deliver, and help teams adopt AI through clear rules.
 
 ## What I bring to a team
 
