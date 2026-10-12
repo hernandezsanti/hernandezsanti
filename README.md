@@ -1,30 +1,48 @@
 # Santiago Hernández
 
-I help engineering teams use AI coding agents without lowering the bar for what reaches production.
+I lead product engineering and build systems for responsible AI adoption.
 
-Tech Lead · Montevideo, Uruguay · building production software since 2021.
+Tech Lead across two organizations, responsible for about 20 services, web and mobile products, and AWS; author of an AI engineering standard.
 
-## Selected work
+## Engineering leadership
 
-- **Production platforms:** Modernized and scaled production platforms across microservices, AWS, and legacy migrations, including migrations with no customer downtime.
+- **AI adoption.** I wrote a 22-rule engineering standard across six areas, with a hook, CI check, review, or PR template behind each rule.
+- **Architecture and migration.** I moved a legacy Spring Boot API gateway to NestJS while preserving the same contract for clients.
+- **Estimation and delivery.** I estimate AI-assisted work in parallel waves, with human review points and explicit assumptions when questions remain open.
+- **Hiring criteria.** I use stack-independent interviews to assess reasoning, system design, and the ability to review generated code.
 
-- **Product delivery:** Built products end to end, from early development through production, including single sign-on and payment integrations.
+## Key decisions
 
-- **AI engineering standard:** Wrote Neocoast's AI engineering standard, with 22 rules where each one has a mechanism that enforces it.
+- **Gateway migration.** I moved the gateway to NestJS while preserving the same contract for clients. Customers experienced no downtime.
+- **Enforced AI standard.** I wrote 22 rules with hooks, CI checks, reviews, or PR templates, and chose not to measure the percentage of code written by AI. CI publishes each change to the wiki, and a hook checks the HTML version against the sources.
+- **Shared skills.** I chose a plugin marketplace and a desktop app that prepares the setup for each role. The 27 skills update automatically, and a hook proposes a PR when someone changes a skill.
 
-- **Agent tooling:** Built team-wide agent tooling, including a toolkit of 27 skills and an agentic QA framework.
+## Principles
 
-## Open source
+- Product decisions belong to a person, not the agent.
+- A rule without a mechanism is only an intention.
+- Every failure becomes a control.
+- Design validation takes minutes; code rework takes hours.
+- Nothing is ready without evidence.
+- The agent that wrote the code does not certify it.
 
-- [tupase-mcp](https://github.com/hernandezsanti/tupase-mcp): MCP server to search, book and cancel fitness classes on Tupase from Claude or any MCP client.
-- [claude-code-guardrails](https://github.com/hernandezsanti/claude-code-guardrails): Claude Code hooks that block pushes and merges to main/master without explicit human authorization, and cap test runner workers based on free RAM.
-- [ccuse](https://github.com/hernandezsanti/ccuse): run several Claude Code accounts side by side, pick the one with the most quota left, and see usage in the status line.
-- [claude-code-mods](https://github.com/hernandezsanti/claude-code-mods): Claude Code mods that enforce ticket-based commits, protect paid CI minutes, close git worktrees when a PR is opened, and show machine resources.
+## Public engineering controls
 
-## Stack
+- [claude-code-guardrails](https://github.com/hernandezsanti/claude-code-guardrails): Blocks pushes and merges to main without human approval and limits test workers based on available RAM.
+- [claude-code-mods](https://github.com/hernandezsanti/claude-code-mods): Requires a ticket in every commit, protects paid CI minutes, and closes worktrees when a PR opens.
+- [ccuse](https://github.com/hernandezsanti/ccuse): Switches Claude Code accounts when one runs out of quota.
+- [tupase-mcp](https://github.com/hernandezsanti/tupase-mcp): Provides an MCP server for booking classes.
 
-NestJS, Node.js, TypeScript, React, React Native, Vue, Java / Spring Boot, AWS, MySQL, PostgreSQL. AI tooling: Claude Code, MCP, skills, hooks, plugins. Earlier: Meteor, MongoDB, Ruby on Rails. Computer Engineering, Universidad de la República.
+## A lab for testing ideas with real products
 
-Write to me on [LinkedIn](https://www.linkedin.com/in/santiago-hernandez-gonzalez/) or at hernandezsantiago25@gmail.com.
+I make the design, backend, and app for each product, then use it to test ideas before bringing them to teams.
+
+- [TorneosPadelUy](https://torneospadel.uy/): Covers amateur padel tournaments across Uruguay, with one Expo and React Native codebase for iPhone and web.
+- PadelBump: Brings live professional padel to iPhone through Live Activities, with a backend that checks matches every 10 seconds.
+- Pila: Reads Apple Health and recommends how much to train based on your own history, calculated on the phone rather than against averages.
+
+## Compare notes on AI adoption in engineering
+
+I am open to conversations about AI adoption, architecture, and technical leadership. [hernandezsanti.dev](https://hernandezsanti.dev) · [hi@hernandezsanti.dev](mailto:hi@hernandezsanti.dev) · [LinkedIn](https://www.linkedin.com/in/santiago-hernandez-gonzalez/)
 
 Most of my work lives in private client repositories.
