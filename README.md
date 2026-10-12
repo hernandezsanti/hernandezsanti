@@ -6,14 +6,14 @@ As a Tech Lead, I work across web, mobile, and AWS, use AI coding agents to deli
 
 ## What I bring to a team
 
-Projects change, but the skills I bring to each one travel with me.
+Projects change. These are the skills I bring to each one.
 
-- **Responsible AI adoption.** I help teams adopt AI responsibly by defining clear practices and making them part of everyday work. I focus on steps people can follow and review.
-- **Architecture and migration.** I design systems that can evolve while preserving the behavior clients rely on. I plan migrations carefully to reduce disruption.
-- **Product design and validation.** I explore solution options and their tradeoffs before building. I clarify assumptions and validate decisions with the people involved.
-- **Quality and evidence.** I use tests and clear evidence to check that work is ready. I review edge cases before calling it done.
-- **Estimation and delivery.** I break work into clear steps, estimate each part, and identify where human review is needed. When questions remain open, I make the assumptions explicit.
-- **Technical leadership and hiring.** I assess how people reason about systems and review generated code. I lead engineering teams and help establish practices for AI adoption across disciplines.
+- **AI adoption.** I help teams adopt AI with practices that are part of their daily work, and that people can follow and review.
+- **Architecture and migration.** I design systems that can change without breaking what clients depend on, and I plan migrations so they do not cause downtime.
+- **Product design and validation.** Before building, I compare options and their tradeoffs. I make the assumptions explicit and validate decisions with the people involved.
+- **Quality and evidence.** I work with TDD and check edge cases. Work is done when there is evidence that it works.
+- **Estimation and delivery.** I split work into clear steps, estimate each one, and mark where a person needs to review. If a question is still open, I write down the assumption.
+- **Technical leadership and hiring.** In interviews, I look at how people reason about systems and how they review generated code. I lead engineering teams and help development, design, product, and QA set up how they work with AI.
 
 ## Key decisions
 
@@ -39,7 +39,7 @@ Projects change, but the skills I bring to each one travel with me.
 
 ## A lab for testing ideas with real products
 
-I make the design, backend, and app for each product, then use it to test ideas before bringing them to teams.
+I do the design, the backend, and the app myself, and I use these products to test ideas before I bring them to a team.
 
 - [TorneosPadelUy](https://torneospadel.uy/): Covers amateur padel tournaments across Uruguay, with one Expo and React Native codebase for iPhone and web.
 - PadelBump: Brings live professional padel to iPhone through Live Activities, with a backend that checks matches every 10 seconds.
