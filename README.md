@@ -2,13 +2,13 @@
 
 I lead product engineering and build systems for responsible AI adoption.
 
-Tech Lead experienced in production platform architecture across web, mobile, and AWS, and author of an engineering standard for AI adoption.
+Tech Lead experienced in production platform architecture across web, mobile, and AWS. I contributed to an organizational standard for working with AI in production software.
 
 ## What I bring to a team
 
 Projects change, but the skills I bring to each one travel with me.
 
-- **Responsible AI adoption.** I wrote a 22-rule engineering standard across six areas, with a hook, CI check, review, or PR template behind each rule.
+- **Responsible AI adoption.** I contributed to a 22-rule organizational standard across six areas. Each rule has a hook, CI check, review, or PR template behind it.
 - **Architecture and migration.** I moved a legacy Spring Boot API gateway to NestJS while preserving its client contract. Customers experienced no downtime.
 - **Product design and validation.** Before building, I explore solution options and their tradeoffs, validate product decisions with the PM, and ask the agent to list its assumptions so I can challenge them before writing code. I write a spec for almost everything.
 - **Quality and evidence.** I believe nothing is ready without evidence, and the agent that wrote the code does not certify it. I use TDD and check edge cases before calling work done.
@@ -18,7 +18,7 @@ Projects change, but the skills I bring to each one travel with me.
 ## Key decisions
 
 - **Gateway migration.** I moved the gateway to NestJS while preserving the same contract for clients. Customers experienced no downtime.
-- **Enforced AI standard.** I wrote 22 rules with hooks, CI checks, reviews, or PR templates, and chose not to measure the percentage of code written by AI. CI publishes each change to the wiki, and a hook checks the HTML version against the sources.
+- **Enforced AI standard.** I contributed 22 rules with hooks, CI checks, reviews, or PR templates. I chose not to measure the percentage of code written by AI. CI publishes each change to the wiki, and a hook checks the HTML version against the sources.
 - **Shared skills.** I chose a plugin marketplace and a desktop app that prepares the setup for each role. The 27 skills update automatically, and a hook proposes a PR when someone changes a skill.
 
 ## Principles
