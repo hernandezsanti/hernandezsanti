@@ -15,21 +15,6 @@ Projects change. These are the skills I bring to each one.
 - **Estimation and delivery.** I split work into clear steps, estimate each one, and mark where a person needs to review. If a question is still open, I write down the assumption.
 - **Technical leadership and hiring.** In interviews, I look at how people reason about systems and how they review generated code. I lead engineering teams and help development, design, product, and QA set up how they work with AI.
 
-## Key decisions
-
-- **Gateway migration.** I moved the gateway to NestJS while preserving the same contract for clients. Customers experienced no downtime.
-- **Enforced AI standard.** I contributed 22 rules with hooks, CI checks, reviews, or PR templates. I chose not to measure the percentage of code written by AI. CI publishes each change to the wiki, and a hook checks the HTML version against the sources.
-- **Shared skills.** I chose a plugin marketplace and a desktop app that prepares the setup for each role. The 27 skills update automatically, and a hook proposes a PR when someone changes a skill.
-
-## Principles
-
-- Product decisions belong to a person, not the agent.
-- A rule without a mechanism is only an intention.
-- Every failure becomes a control.
-- Design validation takes minutes; code rework takes hours.
-- Nothing is ready without evidence.
-- The agent that wrote the code does not certify it.
-
 ## Public engineering controls
 
 - [claude-code-guardrails](https://github.com/hernandezsanti/claude-code-guardrails): Blocks pushes and merges to main without human approval and limits test workers based on available RAM.
@@ -45,7 +30,7 @@ I do the design, the backend, and the app myself, and I use these products to te
 - PadelBump: Brings live professional padel to iPhone through Live Activities, with a backend that checks matches every 10 seconds.
 - Pila: Reads Apple Health and recommends how much to train based on your own history, calculated on the phone rather than against averages.
 
-## Compare notes on AI adoption in engineering
+## Contact
 
 I am open to conversations about AI adoption, architecture, and technical leadership. [hernandezsanti.dev](https://hernandezsanti.dev) · [hi@hernandezsanti.dev](mailto:hi@hernandezsanti.dev) · [LinkedIn](https://www.linkedin.com/in/santiago-hernandez-gonzalez/)
 
